@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0%;
+}
+body{
+    background: url(../img/pantallaregistr.jpg);
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "lato", sans-serif;
+      }
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
