@@ -109,9 +109,21 @@ h1,h2,h3,h4,h5{
 }
 
 .form a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
+    text-align: center;
 }
+.gogo{
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    background-color: var(--negro2);
+    color: #fff;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media screen and (min-width: 1024px){
     body{
